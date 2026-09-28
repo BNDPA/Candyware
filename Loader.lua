@@ -41,7 +41,7 @@ local function loadGitHubFile(fileName, isAsset)
 end
 
 print("[Overlay] Загрузка файлов из репозитория...")
-local IMG_DEFAULT = loadGitHubFile("sok.mp4", true) -- Покой
+local IMG_DEFAULT = loadGitHubFile("Image1.png", true) -- Покой
 local IMG_JUMP    = loadGitHubFile("Image2.png", true) -- Прыжок
 local IMG_WALK    = loadGitHubFile("Image3.png", true) -- Ходьба
 local MUSIC_PATH  = loadGitHubFile("fem.mp4", true)    -- Музыка fem.mp4 (эксплойты отлично воспроизводят видео/аудио через customasset)
