@@ -44,7 +44,7 @@ print("[Overlay] Загрузка файлов из репозитория...")
 local IMG_DEFAULT = loadGitHubFile("Image1.png", true) -- Покой
 local IMG_JUMP    = loadGitHubFile("Image2.png", true) -- Прыжок
 local IMG_WALK    = loadGitHubFile("Image3.png", true) -- Ходьба
-local MUSIC_PATH  = loadGitHubFile("fem.mp4", true)    -- Музыка fem.mp4 (эксплойты отлично воспроизводят видео/аудио через customasset)
+local MUSIC_PATH  = loadGitHubFile("fem.mp3", true)    -- Музыка fem.mp4 (эксплойты отлично воспроизводят видео/аудио через customasset)
 print("[Overlay] Загрузка завершена!")
 
 -- Запуск музыки `fem.mp4`
@@ -58,7 +58,7 @@ if MUSIC_PATH ~= "" then
 	sound:Play()
 	print("[Overlay] Музыка успешно запущена!")
 else
-	warn("[Overlay] Не удалось запустить fem.mp4 (файл пуст или не скачался).")
+	warn("[Overlay] Не удалось запустить fem.mp3 (файл пуст или не скачался).")
 end
 
 -- Защита от дублирования при повторном запуске
